@@ -50,37 +50,37 @@
             <!-- Nome input -->
             <div class="form-outline mb-4">
               <label class="form-label" for="form4Example1">Seu nome:</label>
-              <input type="text" id="form4Example1" class="form-control" />
+              <input type="text" id="user" class="form-control" name="user" required/>
             </div>
 
             <!-- Email input -->
             <div class="form-outline mb-4">
                 <label class="form-label" for="form4Example2">Email:</label>
-                <input type="email" id="form4Example2" class="form-control" />
+                <input type="email" id="email" class="form-control" name="email" required />
             </div>
     
             <!-- empresa indicada  -->
             <div class="form-outline mb-4">
                         <label class="form-label" for="form4Example1">Nome Empresa(Serviço) indicado:</label>
-                        <input type="text" id="form4Example1" class="form-control" />
+                        <input type="text" id="empresa-indicada" class="form-control" name="empresa-indicada" required />
                     </div>
 
-                    <label class="form-label" for="form4Example1">Categoria Serviço:</label>
-                    <select class="form-select" aria-label="Default select example">
+                    <label class="form-label" for="selecao">Categoria Serviço:</label>
+                    <select class="form-select" id="categoria" name="categoria" aria-label="Default select example">
                         <option selected>Selecione uma categoria</option>
-                        <option value="1">Alimentícia</option>
-                        <option value="2">Cabelereiro</option>
-                        <option value="3">Colocador de Box</option>
-                        <option value="4">Contador</option>
-                        <option value="5">Designer</option>
-                        <option value="6">Eletricista</option>
-                        <option value="7">Escola</option>
-                        <option value="8">Limpeza piscina</option>
-                        <option value="9">Marido de aluguel</option>
-                        <option value="10">Pedreiro</option>
-                        <option value="11">Pintor</option>
-                        <option value="12">Técnico Informática</option>
-                        <option value="13">Outros</option>
+                        <option value="Alimentícia">Alimentícia</option>
+                        <option value="Cabelereiro">Cabelereiro</option>
+                        <option value="Colocador de Box">Colocador de Box</option>
+                        <option value="Contador">Contador</option>
+                        <option value="Designer">Designer</option>
+                        <option value="Eletricista">Eletricista</option>
+                        <option value="Escola">Escola</option>
+                        <option value="Limpeza piscina">Limpeza piscina</option>
+                        <option value="Marido de aluguel">Marido de aluguel</option>
+                        <option value="Pedreiro">Pedreiro</option>
+                        <option value="Pintor">Pintor</option>
+                        <option value="Técnico Informática">Técnico Informática</option>
+                        <option value="Outros">Outros</option>
                       </select>
                       <br>
 
@@ -88,8 +88,7 @@
             <!-- indicação  input -->
             <div class="form-outline mb-4">
                 <label class="form-label" for="form4Example3">ÍndiK-Aqui</label>
-              <textarea class="form-control" id="form4Example3" rows="4" placeholder="Descreva sobre preço, qualidade, prazo, etc.."></textarea>
-              
+              <textarea class="form-control" id="area-indicacao" name="area-indicacao" rows="4" placeholder="Descreva sobre preço, qualidade, prazo, etc.." required></textarea>
             </div>
 
             <!-- Submit button -->
@@ -105,7 +104,7 @@
       <footer class="bg-dark text-center text-white" id="cabecalho">
         <!-- Copyright -->
         <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-          © Desenvolvido por Deborah-Bordignon
+          © Desenvolvido por <a href="https://github.com/Deborah-Bordignon" target="_blank">Deborah Bordignon</a>
         </div>
         <!-- Copyright -->
       </footer>
