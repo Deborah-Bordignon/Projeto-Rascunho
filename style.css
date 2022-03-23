@@ -34,3 +34,8 @@ mark{
 
     background-color: rgba(238, 155, 61, 0.897)
 }
+
+.principal{
+
+    min-height: 95%;
+}
